@@ -1,0 +1,48 @@
+.markets {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.markets h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--primary-color);
+}
+
+.markets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.market-card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.market-card:hover {
+  transform: translateY(-10px);
+}
+
+.market-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.market-card-content {
+  padding: 1.5rem;
+}
+
+.market-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.learn-more-link {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
